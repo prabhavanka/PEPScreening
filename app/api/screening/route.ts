@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 // Hardcoded production webhook URL
-const WEBHOOK_URL = 'https://vek-kmr.app.n8n.cloud/webhook/400b8307-88a2-407a-9494-921fb00f51cd'
+const WEBHOOK_URL = 'https://pvanka.app.n8n.cloud/webhook-test/400b8307-88a2-407a-9494-921fb00f51cd'
 
 export async function POST(request: NextRequest) {
   const webhookUrl = WEBHOOK_URL
